@@ -12,29 +12,6 @@ A collection of Flask projects built during my learning journey, ranging from ba
   - Driver Log App
   - Student Course Registration App
 
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/flask-projects.git
-   cd flask-projects
-   ```
-2. Navigate to a project folder.
-3. (Optional) Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/Mac
-   venv\Scripts\activate     # Windows
-   ```
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Run the project:
-   ```bash
-   python app.py
-   ```
-
 ## Tech Stack
 
 - Python
