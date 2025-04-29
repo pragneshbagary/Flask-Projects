@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+    <form action="/user" method="POST">
+        <input type="text" name="user" id="user" placeholder="Enter your name">
+        <input type="submit" value="Add User">
+    </form>
+
+    {% if greeting %}
+        <h2>Hi {{ greeting }} 👋</h2>
+    {% endif %}
+</body>
+</html>
