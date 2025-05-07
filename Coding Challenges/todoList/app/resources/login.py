@@ -1,6 +1,6 @@
 from flask import current_app, jsonify
 from flask_restful import Resource, marshal_with, fields, reqparse
-from models.user import User, db
+from app.models import *
 from werkzeug.security import check_password_hash
 import jwt
 
